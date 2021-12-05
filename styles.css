@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Libre Franklin 700';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/librefranklin/v7/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhycKkANDJ.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Libre Franklin 400';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librefranklin/v7/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkANDJ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/merriweather/v27/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 30px 10%;
+    display: block;
+    background-color: #413E46;
+  }
+
+h1 {
+    font-family: 'Libre Franklin 700';
+    display: block;
+    font-size: 2em;
+    text-align: auto;
+    font-weight: bold;
+   }
+
+h2 {
+    font-family: 'Merriweather';
+    display: block;
+    font-size: 1.5em;
+    text-align: auto;
+    font-weight: bold;
+    padding-left: 10px;
+   }
+
+p {
+    font-family: 'Libre Franklin 400';
+    display: block;
+    font-size: 1em;
+    text-align: auto;
+   }
+
+section {
+    display: block;
+    border: 2px solid #997adb;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+
+/* class selectors */
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.purple {
+    background-color: #997adb;
+    color: #fff;
+}
+
+.green {
+    background-color: #549769;
+    color: #fff;
+}
+
+.brown {
+    background-color: #453F26;
+    color: #fff;
+}
+
+.beige {
+    background-color: #FDF8F9;
+    color: #413E46;
+}
+
+.flesh {
+    background-color: #F5DADF;
+    color: #413E46;
+}
