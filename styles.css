@@ -46,6 +46,7 @@ h1 {
     font-size: 2em;
     text-align: auto;
     font-weight: bold;
+    color: #FDF8F9;
    }
 
 h2 {
@@ -55,6 +56,7 @@ h2 {
     text-align: auto;
     font-weight: bold;
     padding-left: 10px;
+    color: #FDF8F9;
    }
 
 p {
@@ -62,6 +64,7 @@ p {
     display: block;
     font-size: 1em;
     text-align: auto;
+    color: #fff;
    }
 
 section {
@@ -69,6 +72,21 @@ section {
     border: 2px solid #997adb;
     padding: 10px;
     margin: 10px auto;
+    background-color: #1D1F20;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    color: #fff;
 }
 
 
@@ -103,10 +121,64 @@ section {
 
 .beige {
     background-color: #FDF8F9;
-    color: #413E46;
+}
+
+.beige .color-label {
+    background-color: #FDF8F9;
+    color: #1D1F20 !important;
+}
+
+.beige .color-hex {
+    background-color: #FDF8F9;
+    color: #1D1F20 !important;
 }
 
 .flesh {
     background-color: #F5DADF;
-    color: #413E46;
+    color: #1D1F20 !important;
+}
+
+.flesh .color-label {
+    background-color: #F5DADF;
+    color: #1D1F20 !important;
+}
+
+.flesh .color-hex {
+    background-color: ##F5DADF;
+    color: #1D1F20 !important;
+}
+/* fonts section */
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed', serif;
+}
+
+.libre-franklin {
+    font-family: 'Libre Franklin 400', serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
 }
